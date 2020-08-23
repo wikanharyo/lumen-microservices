@@ -20,7 +20,7 @@ class AuthorController extends Controller
         //
     }
     /**
-     * Return the list of aothors
+     * Return the list of authors
      *
      * @return Illuminate\Http\Response
      */
@@ -66,7 +66,7 @@ class AuthorController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Student  $student
+     * @param  \App\Author  $author
      * @return \Illuminate\Http\Response
      */
 
@@ -96,7 +96,7 @@ class AuthorController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Student  $student
+     * @param  \App\Author  $author
      * @return \Illuminate\Http\Response
      */
     public function destroy($author)
