@@ -3,6 +3,7 @@
 namespace App\Traits;
 
 use Illuminate\Http\Response;
+use Illuminate\Http\JsonResponse;
 
 trait ApiResponser
 {
